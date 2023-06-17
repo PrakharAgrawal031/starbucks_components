@@ -6,6 +6,10 @@
         "image": "./iced_belgian_chocolate_latte.png",
         "description" : " Espresso with richly flavoured Belgium chocolate sauce, mocha sauce and steamed milk served over ice. Topped with chocolate whipped cream and dark chocolate chips. ",
         "sizes" : {
+            "n1":"Short",
+            "n2":"Tall",
+            "n3":"Grande",
+            "n4":"Venti",
             "s1" : "240ml",
             "s2" : "340ml",
             "s3" : "470ml",
@@ -20,6 +24,10 @@
         "head": "Caffè Latte",
         "description" : "This is the original coffeehouse classic. And like most classics,  apart of its appeal comes from its simplicity. Some prefer to add syrup or extra espresso to the recipe.",
         "sizes" : {
+            "n1":"Short",
+            "n2":"Tall",
+            "n3":"Grande",
+            "n4":"Venti",
             "s1" : "240ml",
             "s2" : "340ml",
             "s3" : "470ml",
@@ -34,6 +42,10 @@
         "head":"Espresso Frappuccino",
         "description" : " Coffee is combined with a shot of espresso and milk, then blended with ice to give you a nice little jolt and lots of sipping joy. ",
         "sizes" : {
+            "n1":"Short",
+            "n2":"Tall",
+            "n3":"Grande",
+            "n4":"Venti",
             "s1" : "240ml",
             "s2" : "340ml",
             "s3" : "470ml",

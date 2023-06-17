@@ -24,27 +24,27 @@ export default function Recipe_card() {
                     <h4>{item.head}</h4>
                   </div>
                   <div className="hot_cold">
-                    <button>Hot Coffee</button>
-                    <button>Cold Coffee</button>
+                    <button className="product_button">Hot Coffee</button>
+                    <button className="product_button">Cold Coffee</button>
                   </div>
                   <div className="product_size">
                     <h5>Size options</h5>
                     <div className="option_bar">
                       <div className="options">
-                        <button>Short</button>
-                        <p>{item.sizes.s1}</p>
+                        <button className="product_button">Short</button>
+                        {/* <p>{item.sizes.s1}</p> */}
                       </div>
                       <div className="options">
-                        <button>Tall</button>
-                        <p>{item.sizes.s2}</p>
+                        <button className="product_button">Tall</button>
+                        {/* <p>{item.sizes.s2}</p> */}
                       </div>
                       <div className="options">
-                        <button>Grande</button>
-                        <p>{item.sizes.s3}</p>
+                        <button className="product_button">Grande</button>
+                        {/* <p>{item.sizes.s3}</p> */}
                       </div>
                       <div className="options">
-                        <button>Venti</button>
-                        <p>{item.sizes.s4}</p>
+                        <button className="product_button">Venti</button>
+                        {/* <p>{item.sizes.s4}</p> */}
                       </div>
                     </div>
                   </div>

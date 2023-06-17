@@ -29,6 +29,34 @@
     display: flex;
 }
 
+.hot_cold{
+    background-color: var(--light-gray);
+    width: fit-content;
+    border-radius: 20px;
+    height: fit-content;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.hot_cold button{
+    margin-left:2px;
+    background-color: var(--light-gray);
+}
+
+
+
+.hot_cold button:hover{
+    background-color: var(--branded-green);
+    color: white;
+}
+
+.product_button{
+    padding: 6px 6px 6px 6px;
+    border-radius: 20px;
+    border: 0px;
+}
+
 .recipe_card_container_upper{
     display: flex;
     justify-content: space-between;
@@ -38,16 +66,35 @@
 .recipe_card_product_pic{
     height: 160px;
 }
+
+.product_size h5{
+    margin-bottom: 5px;
+}
+
 .option_bar{
     display: flex;
+    background-color: var(--light-gray);
+    height: fit-content;
+    border-radius: 20px;
 }
 .options{
-    padding: 10px;
+    /* padding: 10px; */
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* margin: 2px 2px 2px 2px; */
+    
 }
 .options button{
-    width: 80px;
+    min-width: 80px;
+    background-color: var(--light-gray);
 }
 
+.options button:hover{
+    background-color: var(--branded-green);
+    color: white;
+}
+
+.options p{
+    margin-bottom: 0;
+}
