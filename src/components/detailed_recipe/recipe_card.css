@@ -1,11 +1,26 @@
-.recipe_card{
-    height: 100vh;
+.main_container{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.recipe_card{
+    border: 2px white solid;
+    height: 50vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x:auto;
+    padding: 0px 30px 0px 300px;
+}
+
+.recipe_card::-webkit-scrollbar{
+    width: 0;
+}
+
 .recipe_card_container{
+    margin-left: 20px;
     border-radius: 5px;
     background-color: var(--main-background);
     padding: 5px;
