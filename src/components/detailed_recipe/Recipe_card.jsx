@@ -1,7 +1,7 @@
 import "./recipe_card.css";
 // import latte from '../../assets/caffe_latte.png';
 
-import images from "../../assets/index.json";
+import images from "../../../index2.json";
 
 export default function Recipe_card() {
   return (
