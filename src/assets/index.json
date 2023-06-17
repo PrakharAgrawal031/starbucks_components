@@ -29,7 +29,7 @@
 
     {
         "id" : 3,
-        "image": "/src/assets/espresso_frappuccino.png",
+        "image": "./espresso_frappuccino.png",
         "head":"Espresso Frappuccino",
         "description" : " Coffee is combined with a shot of espresso and milk, then blended with ice to give you a nice little jolt and lots of sipping joy. ",
         "sizes" : {
