@@ -56,11 +56,17 @@ export default function Recipe_card() {
                 <div className="customization_options"></div>
               </div>
               <div className="recipe_card_container_lower">
-                <div className="product_description"></div>
+                <div className="product_description">
+                    <p>{item.description}</p>
+                    <p>{item.calories}</p>
+                </div>
                 <div className="product_pricing">
-                  <div className="product_list"></div>
-                  <div className="total_price"></div>
-                  <div className="buy_button"></div>
+                  <div className="product_list"><p>{item.head} {item.price}</p> 
+                  <p>Additives $0.68</p></div>
+                  <div className="buy_button">
+                    <button className="add_to_cart">Add to cart</button>
+                    <button className="order_now">Order now {item.price}</button>
+                  </div>
                 </div>
               </div>
             </div>

@@ -15,7 +15,8 @@
             "s3" : "470ml",
             "s4" : "590ml"
         },
-        "calories" : "15 calories"
+        "calories" : "15 calories",
+        "price": "$2.99"
     },
 
     {
@@ -33,7 +34,8 @@
             "s3" : "470ml",
             "s4" : "590ml"
         },
-        "calories" : "15 calories"
+        "calories" : "15 calories",
+        "price": "$2.99"
     },
 
     {
@@ -51,6 +53,7 @@
             "s3" : "470ml",
             "s4" : "590ml"
         },
-        "calories" : "15 calories"
+        "calories" : "15 calories",
+        "price": "$2.99"
     }
 ]
