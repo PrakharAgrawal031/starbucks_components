@@ -1,4 +1,5 @@
 import './recipe_card.css';
+import latte from '../../assets/caffe_latte.png';
 
 export default function Recipe_card(){
     return(
@@ -6,7 +7,7 @@ export default function Recipe_card(){
             <div className='recipe_card_container'>
                 <div className="cross_button"></div>
                 <div className='recipe_card_container_upper'>
-                    <div className=''><img src="../../assets/caffe_latte.png" alt="Caffe Latte" className='recipe_card_product_pic' /></div>
+                    <div className=''><img src={latte} alt="Caffe Latte" className='recipe_card_product_pic' /></div>
                     <div className="recipe_card_product_details">
                         <div className="product_head"><h4>Caffè Latte</h4></div>
                         <div className="hot_cold"><
