@@ -143,7 +143,7 @@
     background-color: var(--main-background);
     border: 1px solid black;
     border-radius: 20px;
-    padding: 3px 6px 3px 6px;
+    padding: 4px 8px;
     margin-right: 5px;
 }
 
@@ -151,6 +151,6 @@
     background-color: var(--branded-green);
     border:0px;
     border-radius: 20px;
-    padding: 5px 6px 5px 6px;
+    padding: 6px 8px;
     margin-left: 10px;
 }
