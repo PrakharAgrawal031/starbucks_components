@@ -16,7 +16,7 @@
 }
 
 .recipe_card::-webkit-scrollbar{
-    width: 0;
+    width: 5px;
 }
 
 .recipe_card_container{
@@ -205,7 +205,7 @@
     flex-wrap: wrap;
     height: 200px;
     overflow-y: scroll;
-    margin-top: 5px;
+    margin-top: 10px;
 
 }
 
@@ -220,6 +220,7 @@
     justify-content: center;
     align-items: center;
     height: 160px;
+    margin-top: 0;
 
 }
 
@@ -257,6 +258,7 @@
 
 .customization_options::-webkit-scrollbar{
     background-color: var(--light-gray);
-    width: 4px;
+    width: 3px;
+    border-radius: 1.5px;
 }
 
