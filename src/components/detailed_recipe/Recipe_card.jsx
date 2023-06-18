@@ -28,14 +28,14 @@ export default function Recipe_card() {
                     <h4>{item.head}</h4>
                   </div>
                   <div className="hot_cold">
-                    <button className="product_button">Hot Coffee</button>
+                    <button className="product_button green_button" id="green_button">Hot Coffee</button>
                     <button className="product_button">Cold Coffee</button>
                   </div>
                   <div className="product_size">
                     <h5>Size options</h5>
                     <div className="option_bar">
                       <div className="options">
-                        <button className="product_button">Short</button>
+                        <button className="product_button green_button">Short</button>
                         {/* <p>{item.sizes.s1}</p> */}
                       </div>
                       <div className="options">
@@ -64,7 +64,7 @@ export default function Recipe_card() {
                 <div className="customization_type">
                   <div className="option_bar">
                     <div className="options_mid">
-                      <button className="product_button">Syrups</button>
+                      <button className="product_button green_button">Syrups</button>
                       {/* <p>{item.sizes.s1}</p> */}
                     </div>
                     <div className="options_mid">

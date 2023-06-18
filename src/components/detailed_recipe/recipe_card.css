@@ -262,3 +262,9 @@
     border-radius: 1.5px;
 }
 
+.product_button.green_button{
+    background-color: var(--branded-green);
+    color: white;
+}
+
+
