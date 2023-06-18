@@ -2,6 +2,7 @@ import "./recipe_card.css";
 // import latte from '../../assets/caffe_latte.png';
 
 import images from "../../../index2.json";
+import additives from "../../../index3.json";
 
 export default function Recipe_card() {
   return (
@@ -11,6 +12,9 @@ export default function Recipe_card() {
           images.map((item) => (
             <div key={item.id} className="recipe_card_container">
               <div className="cross_button"></div>
+
+              {/* product type and sizes */}
+
               <div className="recipe_card_container_upper">
                 <div className="">
                   <img
@@ -50,11 +54,17 @@ export default function Recipe_card() {
                   </div>
                 </div>
               </div>
+
+              {/* additives */}
+
               <div className="recipe_card_container_mid">
                 <div className="customization_head"></div>
                 <div className="customization_type"></div>
                 <div className="customization_options"></div>
               </div>
+
+              {/* description & pricing */}
+
               <div className="recipe_card_container_lower">
                 <div className="product_description">
                     <p>{item.description}</p>

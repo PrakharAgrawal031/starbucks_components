@@ -1,0 +1,62 @@
+[
+    {
+        "id":1,
+        "head": "Brown Sugar",
+        "image": "./brown_sugar.png",
+        "price":"$0.68"
+    },
+    {
+        "id":2,
+        "head": "Cinnamon",
+        "image": "./cinnamon.png",
+        "price":"$0.68"
+    },
+    {
+        "id":3,
+        "head": "Roasted Vanilla",
+        "image": "./vanilla.png",
+        "price":"$0.68"
+    },
+    {
+        "id":4,
+        "head": "Hazzlenut",
+        "image": "./hazzlenut.png",
+        "price":"$0.68"
+    },
+    {
+        "id":5,
+        "head": "Peppermint",
+        "image": "./peppermint.png",
+        "price":"$0.68"
+    },
+    {
+        "id":6,
+        "head": "Brown Sugar",
+        "image": "./brown_sugar.png",
+        "price":"$0.68"
+    },
+    {
+        "id":7,
+        "head": "Cinnamon",
+        "image": "./cinnamon.png",
+        "price":"$0.68"
+    },
+    {
+        "id":8,
+        "head": "Roasted Vanilla",
+        "image": "./vanilla.png",
+        "price":"$0.68"
+    },
+    {
+        "id":9,
+        "head": "Hazzlenut",
+        "image": "./hazzlenut.png",
+        "price":"$0.68"
+    },
+    {
+        "id":10,
+        "head": "Peppermint",
+        "image": "./peppermint.png",
+        "price":"$0.68"
+    }
+]
