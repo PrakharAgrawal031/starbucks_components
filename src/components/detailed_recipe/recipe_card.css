@@ -257,6 +257,6 @@
 
 .customization_options::-webkit-scrollbar{
     background-color: var(--light-gray);
-    width: 0px;
+    width: 2px;
 }
 
