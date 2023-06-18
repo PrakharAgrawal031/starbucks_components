@@ -58,24 +58,74 @@ export default function Recipe_card() {
               {/* additives */}
 
               <div className="recipe_card_container_mid">
-                <div className="customization_head"></div>
-                <div className="customization_type"></div>
-                <div className="customization_options"></div>
+                <div className="customization_head">
+                  <p>Customizations</p>
+                </div>
+                <div className="customization_type">
+                  <div className="option_bar">
+                    <div className="options_mid">
+                      <button className="product_button">Syrups</button>
+                      {/* <p>{item.sizes.s1}</p> */}
+                    </div>
+                    <div className="options_mid">
+                      <button className="product_button">Sauces</button>
+                      {/* <p>{item.sizes.s2}</p> */}
+                    </div>
+                    <div className="options_mid">
+                      <button className="product_button">Espresso</button>
+                      {/* <p>{item.sizes.s3}</p> */}
+                    </div>
+                    <div className="options_mid">
+                      <button className="product_button">Creamer</button>
+                      {/* <p>{item.sizes.s4}</p> */}
+                    </div>
+                    <div className="options_mid">
+                      <button className="product_button">Sweetners</button>
+                      {/* <p>{item.sizes.s4}</p> */}
+                    </div>
+                    <div className="options_mid">
+                      <button className="product_button">Toppings</button>
+                      {/* <p>{item.sizes.s4}</p> */}
+                    </div>
+                  </div>
+                </div>
+                <div className="customization_options">
+                  {additives &&
+                    additives.map((add) => (
+                      <div key={add.id} className="additive_option">
+                        <div className="additive_container">
+                          <div className="additive_container-image">
+                            <img src={add.image} alt="" />
+                          </div>
+                          <div className="additive_desc">
+                            <p>{add.head}</p>
+                            <h6>{add.price}</h6>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                </div>
               </div>
 
               {/* description & pricing */}
 
               <div className="recipe_card_container_lower">
                 <div className="product_description">
-                    <p>{item.description}</p>
-                    <p>{item.calories}</p>
+                  <p>{item.description}</p>
+                  <p>{item.calories}</p>
                 </div>
                 <div className="product_pricing">
-                  <div className="product_list"><p>{item.head} {item.price}</p> 
-                  <p>Additives $0.68</p></div>
+                  <div className="product_list">
+                    <p>
+                      {item.head} {item.price}
+                    </p>
+                    <p>Additives $0.68</p>
+                  </div>
                   <div className="buy_button">
                     <button className="add_to_cart">Add to cart</button>
-                    <button className="order_now">Order now {item.price}</button>
+                    <button className="order_now">
+                      Order now {item.price}
+                    </button>
                   </div>
                 </div>
               </div>
