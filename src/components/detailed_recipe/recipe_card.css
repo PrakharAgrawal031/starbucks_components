@@ -255,8 +255,8 @@
     text-align: center;
 } 
 
-body::-webkit-scrollbar{
+.customization_options::-webkit-scrollbar{
     background-color: var(--light-gray);
-    width: 0;
+    width: 0px;
 }
 
